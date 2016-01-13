@@ -1,3 +1,13 @@
 body {
     background-color: lightcyan;
 }
+p { 
+  color: darkcyan;
+}
+.pClass {
+  font-weight: bold;
+}
+a {
+  color: darkslategrey; 
+  font: 20px "Helvetica";
+}
