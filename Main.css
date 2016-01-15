@@ -1,6 +1,13 @@
 body {
     background-color: lightcyan;
 }
+h1 {
+  font: 40px "Helvetica";
+}
+h1 {display: inline-block; 
+  border: 10px dashed ;
+}
+ 
 p { 
   color: darkcyan;
 }
