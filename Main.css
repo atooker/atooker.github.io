@@ -2,19 +2,37 @@ body {
     background-color: lightcyan;
 }
 h1 {
-  font: 40px "Helvetica";
+  font: 90px "Stencil";
+  text-align: center;
 }
-h1 {display: inline-block; 
-  border: 10px dashed ;
+h1 {display: block; 
+  border: 10px dashed darkslategrey;
+  background-color:pink;
+  margin: 15px;
+  padding: 15px;
 }
- 
-p { 
-  color: darkcyan;
-}
-.pClass {
-  font-weight: bold;
+
+p{
+  font: 15px "Avenir";
 }
 a {
   color: darkslategrey; 
-  font: 20px "Helvetica";
+  font: 20px "Stencil";
+}
+
+body{
+  display: inline-block;
+  border: 10px solid darkslategrey;
+  background-color: lightcyan;
+  margin: 15px;
+  padding: 15px;
+}
+div {
+  font: 40px "SignPainter"; 
+  color: purple;
+  display: inline-block;
+   background-color: slategrey;
+  border: 5px solid darkslategrey;
+  margin: 10px;
+  padding:10px;
 }
