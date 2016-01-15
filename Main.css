@@ -20,6 +20,7 @@ a {
   font: 20px "Stencil";
 }
 
+
 body{
   display: inline-block;
   border: 10px solid darkslategrey;
@@ -27,11 +28,11 @@ body{
   margin: 15px;
   padding: 15px;
 }
-div {
+footer {
   font: 40px "SignPainter"; 
-  color: purple;
+  color: pink;
   display: inline-block;
-   background-color: slategrey;
+  background-color: slategrey;
   border: 5px solid darkslategrey;
   margin: 10px;
   padding:10px;
