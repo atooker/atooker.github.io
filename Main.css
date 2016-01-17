@@ -5,31 +5,51 @@ text-align: center;
 font: 40px "Eurostile"  
 }
 
-#about{
-  display: inline-block;
+nav {
+  display: block;
   background-color: darkslategrey;
-  padding: 10px;
-  float: right;
+  padding: 10px;  
 }
-#info{
-  font: 12px "Avenir Next";
+
+nav:hover{
+  background-color: #4db6ac;
+}
+
+li { 
+  display: inline;
+  list-style-type: none;
+  padding: 8px; 
+}
+
+li a: hover{
+  background-color: #4db6ac;
 }
 
 a:link{
  text-decoration: none; 
  color: antiquewhite;
-  font: 20px "Avenir";
+ font: 20px "Avenir" white;
 } 
+
 a:hover{
-  color: yellow;
+  color: #263238;
+}
+
+#info{
+  font: 12px "Avenir Next";
+  color:black;
 }
 
 #BTP{
-  background-color: lightcyan;
+  background-color: #00bcd4;
   height: 200px;
   width: 255px;
   float: left;
   padding: 30px
+}
+
+#BTP:hover{
+  background-color:lightgreen;
 }
 
 #TM{
@@ -40,6 +60,10 @@ a:hover{
   padding: 30px 
 }
 
+#TM:hover{
+  background-color:#ffc107;
+}
+
 #OBC{
    background-color: #ffc107;
   height: 200px;
@@ -48,12 +72,20 @@ a:hover{
   padding: 30px 
 }
 
+#OBC:hover{
+  background-color:#9575cd;
+}
+
 #KPW{
    background-color: lightgreen;
   height: 200px;
   width: 252px;
   float: right;
   padding: 30px
+}
+
+#KPW:hover{
+  background-color:#00bcd4;
 }
 
 footer{
