@@ -1,39 +1,66 @@
-body {
-    background-color: lightcyan;
-}
-h1 {
-  font: 90px "Stencil";
-  text-align: center;
-}
-h1 {display: block; 
-  border: 10px dashed darkslategrey;
-  background-color:pink;
-  margin: 15px;
-  padding: 15px;
+header{ 
+background: pink;
+padding: 5px;
+text-align: center;
+font: 40px "Eurostile"  
 }
 
-p{
-  font: 15px "Avenir";
-}
-a {
-  color: darkslategrey; 
-  font: 20px "Stencil";
-}
-
-
-body{
+#about{
   display: inline-block;
-  border: 10px solid darkslategrey;
+  background-color: darkslategrey;
+  padding: 10px;
+  float: right;
+}
+#info{
+  font: 12px "Avenir Next";
+}
+
+a:link{
+ text-decoration: none; 
+ color: antiquewhite;
+  font: 20px "Avenir";
+} 
+a:hover{
+  color: yellow;
+}
+
+#BTP{
   background-color: lightcyan;
-  margin: 15px;
-  padding: 15px;
+  height: 200px;
+  width: 255px;
+  float: left;
+  padding: 30px
 }
-footer {
-  font: 40px "SignPainter"; 
-  color: pink;
-  display: inline-block;
-  background-color: slategrey;
-  border: 5px solid darkslategrey;
-  margin: 10px;
-  padding:10px;
+
+#TM{
+   background-color: #9575cd;
+  height: 200px;
+  width: 255px;
+  float: right;
+  padding: 30px 
+}
+
+#OBC{
+   background-color: #ffc107;
+  height: 200px;
+  width: 255px;
+  float: left;
+  padding: 30px 
+}
+
+#KPW{
+   background-color: lightgreen;
+  height: 200px;
+  width: 252px;
+  float: right;
+  padding: 30px
+}
+
+footer{
+  background-color: pink;
+  text-align: center;
+  color: antiquewhite;
+  padding: 30px;
+  clear:left;
+  font: 50px "SignPainter"
 }
