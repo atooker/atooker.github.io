@@ -35,6 +35,13 @@ a:hover{
   color: #263238;
 }
 
+.diddy{ 
+text-align:center;
+  padding: 20px;
+  font: 15px "Avenir Next";
+  
+}
+
 #info{
   font: 12px "Avenir Next";
   color:black;
