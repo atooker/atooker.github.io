@@ -102,3 +102,21 @@ footer{
   clear:left;
   font: 50px "SignPainter"
 }
+
+#aboutME{
+  background-color: lightgreen;
+  height:150px;
+  width: 450px;
+  float: left;
+  padding: 30px ;
+  font: 15px "Avenir Next";
+}
+
+#aboutME2{
+  background-color: #00bcd4;
+  height:150px;
+  width: 450px;
+  float: right;
+  padding: 30px;
+  font: 15px "Avenir Next"
+}
