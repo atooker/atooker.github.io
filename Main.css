@@ -22,17 +22,14 @@ li {
   padding: 8px; 
 }
 
-li a: hover{
-  background-color: #4db6ac;
-}
 
-li a{
+li a:link, li a:visited {
  text-decoration: none; 
  color: antiquewhite;
  font: 20px "Avenir" white;
 } 
 
-a:hover{
+li a:hover, a:active{
   color: #263238;
 }
 
