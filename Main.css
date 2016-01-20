@@ -26,7 +26,7 @@ li a: hover{
   background-color: #4db6ac;
 }
 
-a:link{
+li a{
  text-decoration: none; 
  color: antiquewhite;
  font: 20px "Avenir" white;
