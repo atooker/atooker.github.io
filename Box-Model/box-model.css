@@ -4,7 +4,6 @@ body {
 
 * {
   box-sizing: border-box;
-
 }
 
 #wrapper {
@@ -14,6 +13,9 @@ body {
   padding: 30px;
 }
 
+nav{ 
+margin: 20px;
+}
 
 #home{
   font: 20px "Helvetica";
@@ -43,24 +45,25 @@ body {
   border-radius: 10px;
 }
 
+header{
+  background-color: #D4D8D8;
+  display: content-box;
+padding: 2px 2px 2px 2px;
+  margin: 20px 20px ;
+}
+
 img{
 padding: 15px;
   border: dotted grey;
-vertical-align: text-top;
+float: left;
+  margin: 10px;
 }
 
-div{
- 
-}
+div{ float: center;}
 
 .article-copy{
   font: 15px "Helvetica";
 }
-
-p{
-  text-indent: 50px;
-}
-
 
 footer{
   border: dotted grey;
@@ -70,7 +73,8 @@ footer{
 
 h4 {
   font: 20px "Helvetica";
-   line-height: 1px; 
+   line-height: 1px;
+  padding-top: .05px;
 }
 
 #r1 {
