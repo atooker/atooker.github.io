@@ -4,10 +4,85 @@ body {
 
 * {
   box-sizing: border-box;
+
 }
 
 #wrapper {
   border: 2px dotted slategray;
   width: 800px;
   margin: 0 auto;
+  padding: 30px;
+}
+
+
+#home{
+  font: 20px "Helvetica";
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: darkslategrey;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#about{
+  font: 20px "Helvetica";
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: darkslategrey;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#myrep{
+  font: 20px "Helvetica";
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: darkslategrey;
+  padding: 10px 30px;
+  
+  border-radius: 10px;
+}
+
+img{
+padding: 15px;
+  border: dotted grey;
+vertical-align: text-top;
+}
+
+div{
+ 
+}
+
+.article-copy{
+  font: 15px "Helvetica";
+}
+
+p{
+  text-indent: 50px;
+}
+
+
+footer{
+  border: dotted grey;
+  box-sizing: content-box;
+  padding: 5px;
+}
+
+h4 {
+  font: 20px "Helvetica";
+   line-height: 1px; 
+}
+
+#r1 {
+  font: 10px "Helvetica";
+  color: grey;
+}
+
+#r2 {
+  font: 10px "Helvetica";
+  color: grey;
+}
+#r3 {
+  font: 10px "Helvetica";
+  color: grey;
 }
