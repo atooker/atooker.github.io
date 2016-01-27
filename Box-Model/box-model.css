@@ -26,6 +26,10 @@ margin: 20px;
   border-radius: 10px;
 }
 
+#home:hover {
+  background-color: #4db6ac;
+}
+
 #about{
   font: 20px "Helvetica";
   text-decoration: none;
@@ -35,13 +39,16 @@ margin: 20px;
   border-radius: 10px;
 }
 
+#about:hover {
+  background-color: #4db6ac;
+}
+
 #myrep{
   font: 20px "Helvetica";
   text-decoration: none;
   color: antiquewhite;
   background-color: darkslategrey;
   padding: 10px 30px;
-  
   border-radius: 10px;
 }
 
@@ -52,11 +59,21 @@ padding: 2px 2px 2px 2px;
   margin: 20px 20px ;
 }
 
+#myrep:hover {
+  background-color: #4db6ac;
+}
+
+h1,h3{
+  margin:0;
+  padding: 0px 10px  
+}
+
+
 img{
 padding: 15px;
   border: dotted grey;
 float: left;
-  margin: 10px;
+  margin: 20px;
 }
 
 div{ float: center;}
@@ -73,8 +90,7 @@ footer{
 
 h4 {
   font: 20px "Helvetica";
-   line-height: 1px;
-  padding-top: .05px;
+  margin: 0;  
 }
 
 #r1 {
