@@ -23,7 +23,7 @@ header{
     margin-right:auto   
 }
 
-header a { 
+.pill-button { 
 border-radius: 20px;
   display: inline-block;
     background: grey;
@@ -32,6 +32,12 @@ border-radius: 20px;
     text-decoration:none;  
 }
 
+.promo{
+    background: white;
+    color: black;
+    font: 18px "Helvetica";
+    padding: 10px 50px;
+}
 /* Big Promo */
 
 #big-promo{
