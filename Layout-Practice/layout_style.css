@@ -8,7 +8,7 @@
 }
 
 .promo-container{
-    background-color: lightgrey;
+    background-color: cornflowerblue;
     
 }
 
@@ -48,3 +48,34 @@ border-radius: 20px;
     width: 60%;
    padding:50px;
 }
+/*Product Features*/
+.product-features, .product-buy-now{
+     display:flex;     
+}
+
+.feature{
+     text-align:center;
+     padding: 20px;
+}
+
+.feature-image{
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+     border-radius: 50%;
+     overflow: hidden;
+}
+
+.product-buy-now{ 
+     align-items: center;
+}
+.product-info{
+     text-align: right;
+}
+
+#product-reviews{
+     background-color: cornflowerblue;
+     text-align: center;
+     padding;50px;
+}
+
