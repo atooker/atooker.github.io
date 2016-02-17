@@ -79,3 +79,26 @@ border-radius: 20px;
      padding;50px;
 }
 
+footer{ 
+     display: flex;
+     padding: 15px 10px 15px 10px;
+     font: 12px "Helvetica";
+}
+
+.footer-links{
+     flex:1;
+}
+
+.footer-links a{
+     text-decoration: none;
+}
+
+.footer-copyright{
+     flex:1;
+     text-align: right;
+}
+
+.footer-copyright p{
+     margin: 0;
+     font: 12px "Helvetica";
+}
