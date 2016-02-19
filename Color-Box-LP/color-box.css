@@ -82,3 +82,35 @@
      flex: 1;
      background-color: yellow;
 }
+
+.facebook{
+     border: 5px solid black;
+     height: 570px;
+     width: 960px;
+     padding: 20px;
+}
+
+.rd-3{
+     height: 120px;
+     background-color: red;
+}
+
+.center-elements{
+     display: flex;
+     padding-top: 20px;
+     height: 400px;
+}
+
+.grn-3{
+     background-color: green;
+     flex: 1;
+     height: 395px;
+     margin-right: 20px;
+}
+
+.bl-3{
+     background-color: blue;
+     flex: 3;
+     height: 395px;
+
+}
