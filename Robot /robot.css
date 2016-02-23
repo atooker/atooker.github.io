@@ -133,6 +133,12 @@ right: 30px;
   top: 200px;
 }
 
+.sketch{
+     position: absolute;
+     left: 55px;
+     top: 2px;
+}
+
 .knob.left{
   border: 6px solid black;
   height: 30px;
@@ -358,3 +364,4 @@ right: 30px;
    top: -130px;
    left: -31px
 }
+
