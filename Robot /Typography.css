@@ -2,7 +2,7 @@
      box-sizing: border-box;
 }
 
-.headline, .dates, .side-bar, .main-topic{
+.headline, .dates, .side-bar, .main-topic, nav, footer{
   position: absolute;
   left: 0;
   right: 0;
@@ -29,8 +29,8 @@
 
 nav{
      position: absolute;
-     top: 130px;
-     left: 630px;
+     top: 230px;
+     left: 180px;
 }
 
 .pill-button { 
@@ -46,7 +46,7 @@ nav{
 
 .main-topic{
      position: absolute;
-     top:160px;
+     top:260px;
 }
 
 h2{
@@ -93,8 +93,7 @@ h2{
 
 footer{
      position: absolute;
-     top: 870px;
-     left:535px;
+     top: 970px;
      background:firebrick;
      height: 100px;
      width: 800px;
