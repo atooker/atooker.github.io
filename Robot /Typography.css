@@ -8,27 +8,103 @@
   right: 0;
   margin: 50px auto;
   margin-top: 5px;
+  width:800px;
 }
 
 .headline{
-     border-radius: 20px;
-     background-color: darkslategrey;
+     background-color: firebrick;
      height: 200px;
-     width: 1000    
+     width: 800px;    
 }
 
 #Catch{
-     font-family: 'Rock Salt', cursive;
-     font-size: 70px;
+     font-family:'Shadows Into Light', cursive;
+     font-size: 100px;
      color:whitesmoke;
      position: absolute;
-     left: 135px; 
-     top: -50px; 
+     left: 200px; 
+     top: -90px; 
+     font-weight: 900px;
+}
+
+nav{
+     position: absolute;
+     top: 130px;
+     left: 630px;
+}
+
+.pill-button { 
+     border-radius: 20px;
+     display: inline-block;
+     background: grey;
+     padding: 10px 30px;
+     color: white;
+     margin: 0px 20px;
+     text-decoration:none; 
+     letter-spacing: 8
+}
+
+.main-topic{
+     position: absolute;
+     top:160px;
+}
+
+h2{
+     font-family:'Rock Salt', cursive;
+     font-size: 40px;
+}
+
+.subheader{
+     text-shadow:4px 6px 10px rgba(0, 0, 0, 0.5); 
+     text-transform: uppercase;
+     font-style: italic;
 }
 
 .date{
      position: absolute;
-     top:225px;
-     left: 600px;
      font-family: 'Poiret One', cursive;
+     top: 110px;     
+}
+
+.author{
+     position: absolute;
+     font-family: 'Poiret One', cursive;
+     top: 110px;
+     left: 150px;
+     font-variant: small-caps
+}
+
+.main-body{
+     display: flex;
+}
+.text-align{
+     flex; 4
+     width: 400px;
+     text-align: right;
+     text-indent: 80px;
+     font-weight:900;
+}
+
+.wordspacing{
+     text-align: justify;
+     word-spacing: 20px;
+     line-height: 20px;
+}
+
+footer{
+     position: absolute;
+     top: 870px;
+     left:535px;
+     background:firebrick;
+     height: 100px;
+     width: 800px;
+}
+
+.side-nav{
+     display: inline-block;
+     font-family: 'Poiret One', cursive;
+     padding: 10px 30px;
+     color: white;
+     margin: 29px 45px;
+     text-decoration:none;    
 }
