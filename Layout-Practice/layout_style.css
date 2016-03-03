@@ -4,11 +4,13 @@
 
 .main-container{
     width: 1000px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto; 
+     background-color: whitesmoke;
+
 }
 
 .promo-container{
-    background-color: cornflowerblue;
+     background-image: url(photo-1448526478325-616f2b15b04e.jpeg);
     
 }
 
@@ -17,26 +19,39 @@ header{
 }
 
 .branding {
-    background-color: aqua;
     width:150px;
     height:45px;
-    margin-right:auto   
+    margin-right:auto
+}
+
+.Name{
+     position: absolute;
+     top: -50px;
+     left: 165px;
+     font-family: 'Amatic SC', cursive;
+     font-size: 50px; 
 }
 
 .pill-button { 
-border-radius: 20px;
-  display: inline-block;
-    background: grey;
-    padding: 10px 30px;
-  color: white;
-    text-decoration:none;  
+     font-family: 'Special Elite', cursive;
+     border-radius: 20px;
+     display: inline-block;
+     background: grey;
+     padding: 10px 30px;
+     color: white;
+     text-decoration:none;  
+} 
+
+.pill-button:hover{
+     background-color: tomato;
 }
 
+
 .promo{
-    background: white;
-    color: black;
-    font: 18px "Helvetica";
-    padding: 10px 50px;
+     font-family: 'Special Elite', cursive;
+     background: white;
+     color: black;
+     padding: 10px 50px;
 }
 /* Big Promo */
 
@@ -45,8 +60,9 @@ border-radius: 20px;
 }
 
 .promo-message{
-    width: 60%;
-   padding:50px;
+     font-family: 'Special Elite', cursive;
+     width: 60%;
+     padding:50px;
 }
 /*Product Features*/
 .product-features, .product-buy-now{
@@ -56,6 +72,7 @@ border-radius: 20px;
 .feature{
      text-align:center;
      padding: 20px;
+     font-family: 'Special Elite', cursive;
 }
 
 .feature-image{
@@ -71,18 +88,20 @@ border-radius: 20px;
 }
 .product-info{
      text-align: right;
+     font-family: 'Special Elite', cursive;
 }
 
 #product-reviews{
-     background-color: cornflowerblue;
      text-align: center;
-     padding;50px;
+     padding:30px;
+     font-family: 'Special Elite', cursive;
 }
 
 footer{ 
      display: flex;
      padding: 15px 10px 15px 10px;
      font: 12px "Helvetica";
+     background-color: cadetblue;
 }
 
 .footer-links{
