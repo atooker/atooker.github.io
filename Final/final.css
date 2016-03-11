@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+}
+
+.main-container{
+     width: 1000px;
+     margin: 0 auto 0 auto; 
+     background-color: whitesmoke;
+}
+
+ header{
+      display: flex;
+      margin:0px 10px 0 40px;
+      height:120px
+}
+
+.branding {
+     width:150px;
+     height:45px;
+     margin-left:190px;
+     margin-top: 10px;
+}
+
+.pill-button { 
+     display: inline-block;
+     padding: 10px 10px;
+     margin-top: 40px;
+     color: darkslategrey;
+     text-decoration:none;  
+} 
+
+.pill-button.pricing{
+     border: 2px solid black;
+}
+
+.sign_up{
+     text-align: center;
+    width: auto;
+     height:400px;
+}
+
+.sign_up p {
+     width: 70%;
+     margin: 0 auto;
+}
+
+p{text-align: center;
+}
