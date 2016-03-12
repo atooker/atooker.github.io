@@ -82,3 +82,39 @@ footer{
      text-decoration: underline;
      margin-bottom: -10px
 }
+
+.foursquare{
+     display: block;
+     margin-top: 200px;
+     text-align: left;
+     
+}
+
+.feature_one{
+     position: absolute;
+     top:0px;
+     left: 0px;
+     width: 400px;
+     margin: 20px;
+}
+
+.feature_two{
+     position: absolute;
+     top:0px;
+     right: 0px;
+     width: 400px;
+}
+
+.feature_three{
+     position: absolute;
+     bottom:0px;
+     left: 0px;
+     width: 400px;
+}
+
+.feature_four{
+     position: absolute;
+     bottom:0px;
+     right: 0px;
+     width: 400px;
+}
