@@ -10,8 +10,10 @@
 
  header{
       display: flex;
-      margin:0px 10px 0 40px;
-      height:120px
+     margin:0px 30px 0 30px;
+      height:120px;
+      background: slategrey;
+
 }
 
 .branding {
@@ -84,37 +86,70 @@ footer{
 }
 
 .foursquare{
+     position: relative;
      display: block;
-     margin-top: 200px;
      text-align: left;
-     
+     height: 500px;
+     margin-top: 60px;  
+     margin-bottom: 100px;
+}
+
+.feat_one{
+    float: left;
+     padding-right: 30px;
 }
 
 .feature_one{
-     position: absolute;
-     top:0px;
-     left: 0px;
-     width: 400px;
-     margin: 20px;
+    position: absolute;
+     width: 500px;
+     float: right;
+     padding: 0px 30px;
 }
 
-.feature_two{
+.feat_two{
+    float: left;
+     padding-right: 30px;
+
+}
+
+.feature_two{  
      position: absolute;
-     top:0px;
-     right: 0px;
-     width: 400px;
+     width: 500px;
+     right:0px;
+     float:right;
+     padding: 0px 30px;
+
+}
+
+.feat_three{
+    float: left;
+     padding-right: 30px;
+
 }
 
 .feature_three{
      position: absolute;
-     bottom:0px;
      left: 0px;
-     width: 400px;
+     top:200px;
+     width: 500px;
+     padding: 0px 30px;
+}
+
+.feat_four{
+    float: left;
+     padding-right: 30px;
+
 }
 
 .feature_four{
      position: absolute;
-     bottom:0px;
      right: 0px;
-     width: 400px;
+     top: 200px;
+     width: 500px;
+     padding: 0px 30px;
+
+}
+
+.banner{
+     height:600px;
 }
