@@ -13,7 +13,6 @@
      margin:0px 30px 0 30px;
       height:120px;
       background: slategrey;
-
 }
 
 .branding {
@@ -42,8 +41,7 @@
      text-align: center;
      width: auto;
      height:400px;
-     position: relative;
-     
+     position: relative;   
 }
 
 .sign_up_centering {
@@ -89,7 +87,7 @@ footer{
      position: relative;
      display: block;
      text-align: left;
-     height: 500px;
+     height: 400px;
      margin-top: 60px;  
      margin-bottom: 100px;
 }
@@ -109,7 +107,6 @@ footer{
 .feat_two{
     float: left;
      padding-right: 30px;
-
 }
 
 .feature_two{  
@@ -118,13 +115,11 @@ footer{
      right:0px;
      float:right;
      padding: 0px 30px;
-
 }
 
 .feat_three{
     float: left;
      padding-right: 30px;
-
 }
 
 .feature_three{
@@ -138,7 +133,6 @@ footer{
 .feat_four{
     float: left;
      padding-right: 30px;
-
 }
 
 .feature_four{
@@ -147,9 +141,37 @@ footer{
      top: 200px;
      width: 500px;
      padding: 0px 30px;
-
 }
 
 .banner{
-     height:600px;
+     height:320px;
+     margin: 0px 30px 0px 30px;
 }
+
+.banner_text{
+     height: 50px;
+     width: 600px;
+     margin: 0px 200px 80px 200px;
+     text-align: center;
+}
+
+.photo_line{
+     display: flex;
+     flex: 1;
+     margin: 0px 30px 0px 30px
+}
+
+.photo_line_text{
+     width: 600px;
+     margin: 0px 200px 0px 200px;
+     text-align: center;
+}
+
+.pill-button.feature{
+     border: 2px solid black;
+     padding: 10px 50px;
+     position: relative;
+     left: 400px;
+     margin-bottom: 80px;
+}
+     
