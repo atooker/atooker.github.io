@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box;
+    box-sizing:border-box;    
 }
 
 .main-container{
@@ -30,6 +30,10 @@
      text-decoration:none;  
      color:black;
 } 
+
+.pill-button:hover{
+     color: chartreuse;
+}
 
 .pill-button.pricing{
      border: 2px solid black;
@@ -194,13 +198,15 @@ footer{
 }
 
 .dollars{
-     font-size: 60px;
+     font-size: 80px;
+     font:700;
 }
+
 
 .title{
      position: relative;
      top:-30px;
-     font: 15px;
+     font-weight: 700;
 }
 
 .info{
@@ -224,21 +230,21 @@ footer{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 300px;
+     top: 250px;
 }
 
 .pill-button.buy2{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 212px;
+     top: 177px;
 }
 
 .pill-button.buy3{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 210px;
+     top: 155px;
 }
 
 .ten{
