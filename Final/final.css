@@ -12,7 +12,6 @@
       display: flex;
      margin:0px 30px 0 30px;
       height:120px;
-      background: slategrey;
 }
 
 .branding {
@@ -26,8 +25,9 @@
      display: inline-block;
      padding: 10px 10px;
      margin-top: 40px;
-     color: darkslategrey;
+     background-color: whitesmoke;
      text-decoration:none;  
+     color:black;
 } 
 
 .pill-button.pricing{
@@ -41,7 +41,8 @@
      text-align: center;
      width: auto;
      height:400px;
-     position: relative;   
+     position: relative;
+     color: whitesmoke;
 }
 
 .sign_up_centering {
