@@ -182,6 +182,7 @@ footer{
 .prices{
      display: flex;
      margin: 50px 30px 0px 30px; 
+     text-align: center;
 }
 
 .ten,.fifteen,.twenty-five{
@@ -190,16 +191,65 @@ footer{
      border: 2px solid black;
 }
 
-.pill-button.buy{
+.dollars{
+     font-size: 60px;
+}
+
+.title{
+     position: relative;
+     top:-30px;
+     font: 15px;
+}
+
+.info{
+     position: relative;
+     top: 50px;
+}
+
+.pill-button.buy1{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
+     top: 200px;
+}
+
+.pill-button.buy2{
+     border: 2px solid black;
+     padding: 10px 50px;
+     position: relative;
+     top: 146px;
+}
+
+.pill-button.buy3{
+     border: 2px solid black;
+     padding: 10px 50px;
+     position: relative;
+     top: 76px;
 }
 
 .ten{
      margin-right: 30px; 
 }
 
+em{
+     position: relative;
+     top:-30px;
+     height: 10px;
+}
+     
+
 .fifteen {
      margin-right: 30px; 
+}
+
+.convinced{
+     text-align: center;
+     width: 500px;
+     margin: 75px 250px 75px 250px;
+}
+
+.pill-button.blog{
+     border: 2px solid black;
+     padding: 10px 50px;
+     position: relative;
 }
