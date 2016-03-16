@@ -74,17 +74,19 @@
      display:flex;
      position: relative;
      margin-top: 100px;
-     width:1000px;
+     width:950px;
 }
 
 .feature_image{
      position: relative;
      padding:30px;
+     right: 30px;
 }
 
 .feature_image_text{
      text-align: left;
-     padding: 0px 50px;     
+     padding: 0px 50px;
+     left: 30px;
 }
 
 footer{
