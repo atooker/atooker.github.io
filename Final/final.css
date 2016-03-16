@@ -74,6 +74,12 @@
      display:flex;
      position: relative;
      margin-top: 100px;
+     width:1000px;
+}
+
+.feature_image{
+     position: relative;
+     padding:30px;
 }
 
 .feature_image_text{
