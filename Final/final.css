@@ -186,7 +186,7 @@ footer{
 }
 
 .ten,.fifteen,.twenty-five{
-     height: 500px;
+     height: 700px;
      width: 500px;
      border: 2px solid black;
 }
@@ -203,28 +203,40 @@ footer{
 
 .info{
      position: relative;
-     top: 50px;
 }
+
+.info.a{
+     top: 70px;
+}
+
+.info.b{
+     top: 40px;
+}
+
+.info.c{
+     top:70px;
+}
+
 
 .pill-button.buy1{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 200px;
+     top: 300px;
 }
 
 .pill-button.buy2{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 146px;
+     top: 212px;
 }
 
 .pill-button.buy3{
      border: 2px solid black;
      padding: 10px 50px;
      position: relative;
-     top: 76px;
+     top: 210px;
 }
 
 .ten{
@@ -234,7 +246,6 @@ footer{
 em{
      position: relative;
      top:-30px;
-     height: 10px;
 }
      
 
